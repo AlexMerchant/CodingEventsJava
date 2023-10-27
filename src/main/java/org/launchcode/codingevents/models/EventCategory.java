@@ -12,9 +12,9 @@ public class EventCategory {
 
     @Id
     @GeneratedValue
-    private  int id;
+    private int id;
 
-    @Size(min=3, message = "Name of event category must be at least 3 characters long")
+    @Size(min=3, message="Name of event category must be at least 3 characters long")
     private String name;
 
     public EventCategory(String name) {
